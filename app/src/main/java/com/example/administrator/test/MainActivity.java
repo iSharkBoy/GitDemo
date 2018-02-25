@@ -7,6 +7,7 @@ import android.util.Log;
 
 public class MainActivity extends AppCompatActivity {
 
+    private static final String TAG = MainActivity.class.getSimpleName();
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -14,5 +15,6 @@ public class MainActivity extends AppCompatActivity {
 
         Log.e("MainActivity","this is my githubDemo");
         Log.e("1","GOGOOGO");
+        Log.e(TAG,"33333");
     }
 }
